@@ -5,6 +5,7 @@
     <option name="renamerInitialized" value="true" />
     <option name="sourceModelValue" value="Default" />
     <option name="targetDbValue" value="6ec4d755-8d86-4d9e-ae93-5d87cb084d50" />
+    <option name="snapshotDbValue" value="6ec4d755-8d86-4d9e-ae93-5d87cb084d50" />
     <option name="newEntityIdType" value="UUID" />
     <option name="newEntityIdStrategy" value="UUID" />
   </component>

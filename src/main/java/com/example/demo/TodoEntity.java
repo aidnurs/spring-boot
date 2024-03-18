@@ -15,7 +15,7 @@ import java.util.UUID;
 
 @Entity
 @Data
-@Table(name = "todo")
+@Table(name = "todos")
 public class TodoEntity {
   @Id
   @GeneratedValue(strategy = GenerationType.UUID)
