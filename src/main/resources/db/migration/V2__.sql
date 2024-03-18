@@ -1,0 +1,17 @@
+ALTER TABLE todo
+    ADD created_at TIMESTAMP WITHOUT TIME ZONE;
+
+ALTER TABLE todo
+    ADD done BOOLEAN;
+
+ALTER TABLE todo
+    ADD title VARCHAR(255);
+
+ALTER TABLE todo
+    ADD updated_at TIMESTAMP WITHOUT TIME ZONE;
+
+ALTER TABLE todo
+    ALTER COLUMN created_at SET NOT NULL;
+
+ALTER TABLE todo
+    ALTER COLUMN updated_at SET NOT NULL;

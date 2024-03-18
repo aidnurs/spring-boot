@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: todoist
+  datasource:
+    url: jdbc:postgresql://localhost:5432/todoist
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+      show-sql: false
+  flyway:
+    enabled: true
